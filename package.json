@@ -1,7 +1,7 @@
 {
-  "name": "taupielebot-chatbot-backend-1",
+  "name": "chatbotback",
   "version": "1.0.0",
-  "description": "",
+  "description": "---",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,17 +9,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Soxzen/taupielebot-chatbot-backend.git"
+    "url": "git+https://github.com/HECQUETquentin/chatbotback.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Soxzen/taupielebot-chatbot-backend/issues"
+    "url": "https://github.com/HECQUETquentin/chatbotback/issues"
   },
-  "homepage": "https://github.com/Soxzen/taupielebot-chatbot-backend#readme",
+  "homepage": "https://github.com/HECQUETquentin/chatbotback#readme",
   "dependencies": {
+    "cors": "^2.8.5",
+    "env": "^0.0.2",
     "express": "^4.18.2",
+    "mongoose": "^7.1.1",
     "nodemon": "^2.0.22",
+    "sequelize": "^6.32.0",
+    "sqlite3": "^5.1.6",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^4.6.3"
   }
