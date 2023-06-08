@@ -4,9 +4,13 @@
 
 ---
 
-- `/dialog/questions`
+- ROUTE : `/dialogs`
 
-    > Méthode GET : Retourne la liste des questions ainsi que son identifiant.
-{ id : number, question: string }
+> Méthode GET : Retourne la liste des questions ainsi que son identifiant.
+    { id : number, question: string }
 
-- `/dialogs`
+> Méthode POST : 
+
+> Méthode DELETE : 
+
+> Méthode PUT :
